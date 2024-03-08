@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dim_10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_110dp"
+        app:cardCornerRadius="@dimen/dim_6dp"
+        android:layout_margin="@dimen/dim_10dp"
+        android:padding="@dimen/dim_4dp"
+        app:cardElevation="@dimen/dim_8dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_5dp"
+                android:background="@color/colorPrimary"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/dvProfile"
+                    android:layout_width="@dimen/dim_68dp"
+                    android:layout_height="@dimen/dim_68dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/dim_6dp"
+                    android:padding="@dimen/dim_1dp"
+                    app:civ_border_width="@dimen/dim_1dp"
+                    android:src="@drawable/userprofile"
+                    app:civ_border_color="@color/colorPrimary"/>
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/dim_20dp"
+                    android:layout_marginTop="@dimen/dim_15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/busLocation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Starting Area To Destination Area"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dim_16sp"/>
+
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dim_10dp"
+                        android:gravity="center"
+                        android:weightSum="2"
+                        android:paddingBottom="@dimen/dim_5dp"
+                        android:paddingTop="@dimen/dim_5dp"
+                        android:paddingRight="@dimen/dim_15dp"
+                        android:paddingLeft="@dimen/dim_15dp"
+                        android:background="@drawable/notice_bg"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/dim_15sp"
+                                android:text="Bus Status"
+                                android:textColor="@color/black"/>
+                            <TextView
+                                android:id="@+id/busStatus"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/dim_15sp"
+                                android:text="Running..."/>
+                        </LinearLayout>
+
+
+                        <View
+                            android:layout_marginLeft="@dimen/dim_8dp"
+                            android:layout_width="@dimen/dim_1dp"
+                            android:layout_height="@dimen/dim_40dp"
+                            android:background="@color/colorPrimary"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_marginLeft="@dimen/dim_6dp"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Bus Number  "
+                                android:textSize="@dimen/dim_15sp"
+                                android:textColor="@color/black"/>
+                            <TextView
+                                android:id="@+id/busNumber"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="8216"
+                                android:textSize="@dimen/dim_15sp"
+                                android:textColor="@color/black"/>
+                        </LinearLayout>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

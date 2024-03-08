@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1083277475523",
+    "project_id": "nsu-bus-services-2b66c",
+    "storage_bucket": "nsu-bus-services-2b66c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083277475523:android:761e71ca4b92fe925fec76",
+        "android_client_info": {
+          "package_name": "com.khokan_gorain_nsubusservices_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083277475523-uie26dejde3adb4snko5gnujdtqfou1o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2UjbIw5LRXf1yz_WjdwXPhWomzj4rECc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083277475523-uie26dejde3adb4snko5gnujdtqfou1o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

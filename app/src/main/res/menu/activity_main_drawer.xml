@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_mybus"
+            android:icon="@drawable/ic_mybus"
+            android:title="@string/mybus" />
+
+        <item
+            android:id="@+id/nav_bus_list"
+            android:icon="@drawable/ic_bus_list"
+            android:title="@string/bus_list" />
+
+        <item
+            android:id="@+id/nav_user_profile"
+            android:icon="@drawable/ic_user_profile"
+            android:title="@string/user_profile" />
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/ic_route"
+            android:title="@string/contacts" />
+
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic_about"
+            android:title="@string/about_us" />
+        <item
+            android:id="@+id/nav_rating"
+            android:icon="@drawable/ic_star_rate"
+            android:title="@string/rating" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share"
+            android:title="@string/share" />
+        <item
+            android:id="@+id/nav_policy"
+            android:icon="@drawable/ic_policy"
+            android:title="@string/policy" />
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/ic_power"
+            android:title="@string/logout" />
+    </group>
+
+</menu>
